@@ -204,7 +204,7 @@ const MenuButton = styled.div`
 // ==================== COMPONENT ====================
 
 
-export default function Navbar({ }) {
+export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const navigate = useNavigate();
 
@@ -282,4 +282,5 @@ export default function Navbar({ }) {
       </NavMain>
     </NavbarWrapper>
   );
+
 }
